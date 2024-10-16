@@ -1,0 +1,16 @@
+.consultation-title {
+    font-size:1.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.consultation-desc {
+    font-size:1rem;
+}
+
+.consultation-form {
+    width: 95%;
+    background-color: #A67C00;
+    height: 60rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
