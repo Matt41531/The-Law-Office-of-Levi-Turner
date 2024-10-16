@@ -11,6 +11,28 @@
 .consultation-form {
     width: 95%;
     background-color: var(--accent);
-    height: 60rem;
     margin: 1rem 0rem 1rem 0rem;
 }
+
+input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ffffff;
+    color: #999999;
+  }
+
+  .message-button {
+    background-color: var(--base);
+    width: 85%;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+  li {
+    text-align: left;
+    margin: 0rem 0rem 1rem 0rem;
+  }
