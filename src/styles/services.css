@@ -1,5 +1,5 @@
 .services-container {
-    background-color: #00274D;
+    background-color: var(--base);
 }
 
 .small-text {
@@ -15,7 +15,7 @@
     width: 90%;
     height: 15rem;
     background-color: var(--grey);
-    color: #00274D;
+    color: var(--base);
     border-radius: .25rem;
     padding: 0rem 0rem 1rem 0rem;
     margin: .5rem 0rem .5rem 0rem;
