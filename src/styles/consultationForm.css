@@ -10,7 +10,7 @@
 
 .consultation-form {
     width: 95%;
-    background-color: #A67C00;
+    background-color: var(--accent);
     height: 60rem;
     margin: 1rem 0rem 1rem 0rem;
 }

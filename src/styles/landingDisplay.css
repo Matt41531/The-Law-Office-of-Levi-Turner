@@ -11,7 +11,7 @@
 }
 
 .consultation-button {
-    background-color: #A67C00;
+    background-color: var(--accent);
     font-size: 1rem;
     font-weight: bold;
     width: 95%;
@@ -29,7 +29,7 @@
 }
 
 .kentucky-text {
-    color:#A67C00;
+    color:var(--accent);
     font-size: 2rem;
     font-weight: 400;
 }

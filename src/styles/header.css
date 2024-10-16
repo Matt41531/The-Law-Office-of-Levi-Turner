@@ -11,7 +11,7 @@
 }
 
 .menu-block {
-    background-color: #A67C00;
+    background-color: var(--accent);
     padding: 1rem;
     display: inline-block;
     height: 5.5rem;
@@ -44,7 +44,7 @@
     font-size: 1.25rem;
     font-weight: bold;
     width:100%;
-    background-color: #E0E0E0;
+    background-color: var(--grey);
     height: 3.75rem;
     margin-left: auto;
     margin-right: auto;
