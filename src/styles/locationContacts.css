@@ -14,7 +14,8 @@
   font-size: 2rem;
   font-weight: bold;
   color: var(--accent);
-  letter-spacing: 10%;
+  letter-spacing: .2rem;
+  margin: 0rem 0rem 1rem 0rem;
 }
 .office-image {
   width: 90%;

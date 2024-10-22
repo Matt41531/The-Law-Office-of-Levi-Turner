@@ -13,7 +13,7 @@ function LandingDisplay() {
         </div>
       </div>
       <div className="landing-display">
-        <div className="large-text container"> 
+        <div className="large-text landing-text"> 
             Proudly Serving All of <span className="kentucky-text">Kentucky</span>.
         </div>
 
