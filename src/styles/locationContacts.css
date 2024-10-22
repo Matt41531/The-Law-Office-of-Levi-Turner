@@ -1,0 +1,28 @@
+.location-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+.location-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: black;
+  margin: 0rem 1.5rem 0rem 1.5rem;
+}
+.phone-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--accent);
+  letter-spacing: 10%;
+}
+.office-image {
+  width: 90%;
+  border: 5px solid #000000;
+  filter: drop-shadow(0px 0px 5px black);
+}
+.directions-text {
+  color: black;
+  font-weight: bold;
+  margin: 1rem 0rem 1rem 0rem;
+}

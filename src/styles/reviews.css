@@ -1,36 +1,36 @@
 .reviews-box {
-    background-color: var(--grey);
-    margin: 0rem .25rem .25rem 0rem;
+  background-color: var(--grey);
+  margin: 0rem 0.25rem 0.25rem 0rem;
 }
 .review-header {
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
-    margin: 0rem .5rem 0rem .5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin: 0rem 0.5rem 0rem 0.5rem;
 }
 
 .stars {
-    margin: 0rem .625rem 0rem 0.625rem;
-    font-size: large;
+  margin: 0rem 0.625rem 0rem 0.625rem;
+  font-size: large;
 }
 
 .review-text {
-    font-size: .75rem;
-    color: black;
-    font-weight: bold;
-    margin: 0rem 1rem 0rem 1rem;
+  font-size: 0.75rem;
+  color: black;
+  font-weight: bold;
+  margin: 0rem 1rem 0rem 1rem;
 }
 
 .review-contact {
-    font-size: .75rem;
-    color: black;
+  font-size: 0.75rem;
+  color: black;
 }
 
 .review-logo {
-    width: 3.125rem;
-    margin: 0rem 0rem 1rem 0rem;
+  width: 3.125rem;
+  margin: 0rem 0rem 1rem 0rem;
 }
 
 .contact-block {
-    margin: 1rem 0rem 0rem 0rem;
+  margin: 1rem 0rem 0rem 0rem;
 }
