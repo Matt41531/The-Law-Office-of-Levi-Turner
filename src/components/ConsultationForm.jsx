@@ -3,7 +3,7 @@ import SendIcon from "@mui/icons-material/Send";
 
 function ConsultationForm() {
   return (
-    <div className="flex-col">
+    <div className="flex-col" id="form">
       <div className="consultation-form flex-col">
         <span className="consultation-title">Book Free Consultation</span>
         <span className="consultation-desc">
@@ -15,7 +15,7 @@ function ConsultationForm() {
         <input type="text" value="Brief Description of Your Case*" />
         <div className="message-button">
           Send Confidential Message
-          <SendIcon />
+          <SendIcon className="inline-icon"/>
         </div>
         <div className="consultation-title">
           What happens during the free consultation?

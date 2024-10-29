@@ -8,15 +8,17 @@ function LandingDisplay() {
         <img className="landing-img" src={officeLogo} />
       </div>
       <div className="landing-display">
-        <div className="consultation-button">
-          REQUEST A FREE CONSULTATION HERE
-        </div>
+        <a className="button-link" href="#form">
+          <div className="consultation-button">
+            REQUEST A FREE CONSULTATION HERE
+          </div>
+        </a>
       </div>
       <div className="landing-display">
-        <div className="large-text landing-text"> 
-            Proudly Serving All of <span className="kentucky-text">Kentucky</span>.
+        <div className="large-text landing-text">
+          Proudly Serving All of <span className="kentucky-text">Kentucky</span>
+          .
         </div>
-
       </div>
     </>
   );

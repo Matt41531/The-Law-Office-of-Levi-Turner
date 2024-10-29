@@ -12,31 +12,31 @@ function Reviews() {
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={0}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={1}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={2}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={3}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={4}
           />,
         ]}
@@ -52,31 +52,31 @@ function Reviews() {
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={0}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={1}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={2}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={3}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={4}
           />,
         ]}
@@ -92,31 +92,31 @@ function Reviews() {
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={0}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={1}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={2}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={3}
           />,
           <StarIcon
             className="stars"
             fontSize="large"
-            color={"success"}
+            sx={{ color: '#34C759' }}
             key={4}
           />,
         ]}
