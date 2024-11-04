@@ -47,7 +47,7 @@ function Services() {
 // eslint-disable-next-line react/prop-types
 function ServiceCard({ title, description }) {
   return (
-    <div className="service-card">
+    <div className="service-card flex flex-col justify-center ">
       <img src={verifiedShield} />
       <span className="title-text">{title}</span>
       <p className="description-text">{description}</p>

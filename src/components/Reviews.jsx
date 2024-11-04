@@ -140,13 +140,13 @@ function Review({
   reviewLogo,
 }) {
   return (
-    <div>
+    <div className="flex flex-col justify-center">
       <div>{arrayOfStars}</div>
       <div className="review-text">{reviewText}</div>
-      <div className="contact-block">
+      <div className="contact-block flex flex-col justify-center">
         <div className="review-contact">{contactName}</div>
         <div className="review-contact">{contactLocation}</div>
-        <img src={reviewLogo} className="review-logo" />
+        <img src={reviewLogo} className="w-12"/>
       </div>
     </div>
   );
