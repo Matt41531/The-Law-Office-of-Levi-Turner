@@ -1,15 +1,14 @@
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import "../styles/menuOptions.css";
 
 // eslint-disable-next-line react/prop-types
 function MenuOptions({closeModal}) {
   return (
-    <div className="modal">
+    <div className="font-bold h-full w-full bg-grey">
       <a>
         HOME
         <ArrowForwardIcon />
       </a>
-      <a>
+      <a className="text-bronze">
         BOOK A FREE CONSULTATION
         <ArrowForwardIcon />
       </a>
@@ -26,7 +25,7 @@ function MenuOptions({closeModal}) {
         <ArrowForwardIcon />
       </a>
       <button onClick={closeModal}>X</button>
-      <div className="menu-footer">
+      <div className="w-full bg-navy">
         <div>The Law Office of Levi Turner</div>
         <div>(606) 896-8022 </div>
       </div>
