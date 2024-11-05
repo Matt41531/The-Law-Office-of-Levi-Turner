@@ -3,7 +3,7 @@ import Levi from "../assets/Levi.jpg";
 
 function Footer() {
   return (
-    <div className="footer-background flex-row">
+    <div className="footer-background flex-row2">
       <div className="footer-col-sm">
         <img className="footer-image" src={Levi} />
       </div>

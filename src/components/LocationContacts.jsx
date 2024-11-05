@@ -4,7 +4,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 function LocationContacts() {
   return (
-    <div className="flex-col">
+    <div className="flex-col2">
       <div className="location-title">Location & Contact</div>
       <div className="location-text">
         1319 Cumberland Ave. Middlesboro, KY 40965

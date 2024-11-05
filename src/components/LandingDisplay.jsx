@@ -1,22 +1,21 @@
 import officeLogo from "../assets/logo.jpg";
-import "../styles/landingDisplay.css";
 
 function LandingDisplay() {
   return (
     <>
-      <div className="landing-display">
-        <img className="landing-img" src={officeLogo} />
+      <div className="flex items-center justify-center w-full">
+        <img className="w-[25.1875rem] h-[23.6875rem]" src={officeLogo} />
       </div>
-      <div className="landing-display">
-        <a className="button-link" href="#form">
-          <div className="consultation-button">
+      <div className="flex items-center justify-center w-full">
+        <a className=" text-white no-underline w-11/12 lg:w-1/3" href="#form">
+          <div className="bg-bronze text-base font-bold w-full py-4 lg:text-lg">
             REQUEST A FREE CONSULTATION HERE
           </div>
         </a>
       </div>
-      <div className="landing-display">
-        <div className="large-text landing-text">
-          Proudly Serving All of <span className="kentucky-text">Kentucky</span>
+      <div className="flex items-center justify-center w-full">
+        <div className="text-black text-4xl font-bold my-4 px-12">
+          Proudly Serving All of <span className="text-bronze text-4xl font-bold">Kentucky</span>
           .
         </div>
       </div>

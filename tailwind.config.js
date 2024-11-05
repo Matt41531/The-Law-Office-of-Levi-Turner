@@ -10,7 +10,9 @@ export default {
       // Configure your color palette here
       'navy': '#00274D',
       'bronze': '#A67C00',
-      'grey': '#E0E0E0'
+      'grey': '#E0E0E0',
+      'black': '#000000',
+      'white': '#ffffff'
     }
   },
   plugins: [],

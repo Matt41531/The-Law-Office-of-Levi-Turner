@@ -3,8 +3,8 @@ import SendIcon from "@mui/icons-material/Send";
 
 function ConsultationForm() {
   return (
-    <div className="flex-col" id="form">
-      <div className="consultation-form flex-col">
+    <div className="flex-col2" id="form">
+      <div className="consultation-form flex-col2 p-1">
         <span className="consultation-title">Book Free Consultation</span>
         <span className="consultation-desc">
           with The Law Office of Levi Turner
@@ -20,7 +20,7 @@ function ConsultationForm() {
         <div className="consultation-title">
           What happens during the free consultation?
         </div>
-        <ul>
+        <ul className="list-disc list-inside">
           <li className="consultation-desc">
             Tell your side of the story, going over the details of your case and
             ask any questions you may have.
