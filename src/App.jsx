@@ -1,5 +1,4 @@
 import "./index.css";
-import "./App.css";
 import Header from "./components/Header.jsx";
 import LandingDisplay from "./components/LandingDisplay.jsx";
 import Services from "./components/Services.jsx";
