@@ -12,7 +12,8 @@ export default {
       'bronze': '#A67C00',
       'grey': '#E0E0E0',
       'black': '#000000',
-      'white': '#ffffff'
+      'white': '#ffffff',
+      'light-grey': '#999999'
     }
   },
   plugins: [],

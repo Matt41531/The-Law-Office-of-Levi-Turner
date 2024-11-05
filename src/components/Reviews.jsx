@@ -1,40 +1,39 @@
 /* eslint-disable react/prop-types */
 import facebookLogo from "../assets/Facebook-Logo-cropped.png";
-import "../styles/reviews.css";
 import StarIcon from "@mui/icons-material/Star";
 
 function Reviews() {
   return (
-    <div className="flex-col2 reviews-box">
-      <div className="review-header">What People Are Saying</div>
+    <div className="flex flex-col items-center justify-center w-full mx-1">
+      <div className="text-3xl font-bold text-black mx-2">What People Are Saying</div>
       <Review
         arrayOfStars={[
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={0}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={1}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={2}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={3}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={4}
@@ -50,31 +49,31 @@ function Reviews() {
       <Review
         arrayOfStars={[
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={0}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={1}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={2}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={3}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={4}
@@ -90,31 +89,31 @@ function Reviews() {
       <Review
         arrayOfStars={[
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={0}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={1}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={2}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={3}
           />,
           <StarIcon
-            className="stars"
+            className="mx-3"
             fontSize="large"
             sx={{ color: '#34C759' }}
             key={4}
@@ -140,12 +139,12 @@ function Review({
   reviewLogo,
 }) {
   return (
-    <div className="flex flex-col2 justify-center">
+    <div className="flex flex-col justify-center w-full items-center">
       <div>{arrayOfStars}</div>
-      <div className="review-text">{reviewText}</div>
-      <div className="contact-block flex flex-col2 justify-center">
-        <div className="review-contact">{contactName}</div>
-        <div className="review-contact">{contactLocation}</div>
+      <div className="text-base text-black mx-8">{reviewText}</div>
+      <div className="my-6 flex flex-col justify-center items-center w-full">
+        <div className="text-black">{contactName}</div>
+        <div className="text-black">{contactLocation}</div>
         <img src={reviewLogo} className="w-12"/>
       </div>
     </div>

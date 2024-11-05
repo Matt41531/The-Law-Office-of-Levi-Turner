@@ -7,8 +7,8 @@ function LandingDisplay() {
         <img className="w-[25.1875rem] h-[23.6875rem]" src={officeLogo} />
       </div>
       <div className="flex items-center justify-center w-full">
-        <a className=" text-white no-underline w-11/12 lg:w-1/3" href="#form">
-          <div className="bg-bronze text-base font-bold w-full py-4 lg:text-lg">
+        <a className="no-underline w-11/12 lg:w-1/3" href="#form">
+          <div className="text-white bg-bronze font-bold w-full py-4 lg:text-lg hover:text-white">
             REQUEST A FREE CONSULTATION HERE
           </div>
         </a>

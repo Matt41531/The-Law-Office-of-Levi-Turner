@@ -1,18 +1,17 @@
-import "../styles/footer.css";
 import Levi from "../assets/Levi.jpg";
 
 function Footer() {
   return (
-    <div className="footer-background flex-row2">
-      <div className="footer-col-sm">
-        <img className="footer-image" src={Levi} />
+    <div className="bg-navy flex flex-row w-full justify-center items-center">
+      <div className="w-1/4">
+        <img className="w-10/12 border-solid border-4 border-white m-4" src={Levi} />
       </div>
-      <div className="footer-col-lg">
-        <div className="footer-title">The Law Office of Levi Turner</div>
-        <div className="footer-text">
+      <div className="w-3/4">
+        <div className="text-4xl">The Law Office of Levi Turner</div>
+        <div className="text-xs">
           Copyright 2024, The Law Office of Levi Turner
         </div>
-        <div className="footer-text">Disclaimer | Privacy Policy</div>
+        <div className="text-xs">Disclaimer | Privacy Policy</div>
       </div>
     </div>
   );
