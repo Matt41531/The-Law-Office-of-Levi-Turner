@@ -3,7 +3,7 @@ import verifiedShield from "../assets/verified-shield.png";
 function Services() {
   return (
     <>
-      <div className="bg-navy">
+      <div className="bg-navy" id="services">
         <div className="flex flex-row w-full items-center justify-center">
           <span className="text-4xl font-bold mt-8 mb-1 lg:text-6xl">
             We are here to help.

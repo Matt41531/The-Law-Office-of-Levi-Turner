@@ -1,11 +1,12 @@
 import MenuIcon from "@mui/icons-material/Menu";
 import CircleIcon from "@mui/icons-material/Circle";
 import MenuOptions from "./MenuOptions";
+import { createPortal } from 'react-dom';
 import { useState } from "react";
 
 function Header() {
   return (
-    <div className="sticky top-0 xl:static">
+    <div className="sticky top-0 xl:static" id="home">
       <div className="flex w-full justify-center items-center">
         <MenuButton />
         <div className="flex justify-center items-center bg-navy p-4 w-full text-2xl font-bold h-24 lg:text-4xl 2xl:text-5xl">
@@ -41,7 +42,7 @@ function MenuButton() {
         <div>MENU</div>
       </div>
 
-      {isModalOpen && <MenuOptions closeModal={closeModal} />}
+      {isModalOpen && createPortal(<MenuOptions closeModal={closeModal} />, document.body)}
     </>
   );
 }
