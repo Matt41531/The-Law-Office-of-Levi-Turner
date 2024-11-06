@@ -8,7 +8,7 @@ function LocationContacts() {
       <div className="text-xl font-bold text-black mx-6">
         1319 Cumberland Ave. Middlesboro, KY 40965
       </div>
-      <img className="w-11/12 border-4 border-solid border-black" src={lawOffice} />
+      <img className="w-11/12 border-4 border-solid border-black lg:w-1/2" src={lawOffice} />
       <div className="my-4">
         <a className="text-black text-xl font-bold my-4 hover:text-black" target="_blank" href="https://www.google.com/maps/dir//1319+E+Cumberland+Ave,+Middlesboro,+KY+40965/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x885c84cf2a5b4c81:0x9a8455b676f016f7?sa=X&ved=1t:707&ictx=111">
           GET DIRECTIONS <ArrowForwardIcon className="align-bottom" style={{ fontSize: 30 }}/>

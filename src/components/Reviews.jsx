@@ -4,7 +4,7 @@ import StarIcon from "@mui/icons-material/Star";
 
 function Reviews() {
   return (
-    <div className="flex flex-col items-center justify-center w-full mx-1" id="reviews">
+    <div className="flex flex-col items-center justify-center w-full" id="reviews">
       <div className="text-3xl font-bold text-black mx-2">What People Are Saying</div>
       <Review
         arrayOfStars={[
@@ -141,7 +141,7 @@ function Review({
   return (
     <div className="flex flex-col justify-center w-full items-center">
       <div>{arrayOfStars}</div>
-      <div className="text-base text-black mx-8">{reviewText}</div>
+      <div className="text-base text-black mx-8 lg:mx-60">{reviewText}</div>
       <div className="my-6 flex flex-col justify-center items-center w-full">
         <div className="text-black">{contactName}</div>
         <div className="text-black">{contactLocation}</div>
